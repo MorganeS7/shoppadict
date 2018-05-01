@@ -1,0 +1,114 @@
+{
+  "products": [
+    {
+      "id": 0,
+      "name": "Swing Doudoune Oversized Hooded Quilted Shell Down Coat - Black",
+      "price": "3250",
+      "color": "black",
+      "brand": "Balenciaga",
+      "img_url": "https://img.shopstyle-cdn.com/pim/d4/15/d415688b0fcf31fe3b4672afec6c12aa_best.jpg",
+      "main_category": "woman",
+      "sub_category": "clothing",
+      "last_category": "coats"
+    },
+    {
+      "id": 1,
+      "name": "Illusion Yoke Lace Gown ",
+      "price": "243.90",
+      "color": "metal",
+      "brand": "Adrianna Papell",
+      "img_url": "https://img.shopstyle-cdn.com/pim/8f/fe/8ffe105cc790d259286b97c24787f6b0_best.jpg",
+      "main_category": "woman",
+      "sub_category": "clothing",
+      "last_category": "dresses"
+    },
+    {
+      "id": 2,
+      "name": "Bell Sleeve Cotton Button-Up Blouse ",
+      "price": "112.50",
+      "color": "white",
+      "brand": "Jonathan Simkhai",
+      "img_url": "https://img.shopstyle-cdn.com/pim/ef/18/ef1813cdd9bc5be943017ff514da0d3e_best.jpg",
+      "main_category": "woman",
+      "sub_category": "clothing",
+      "last_category": "tops"
+    },
+    {
+      "id": 3,
+      "name": "Rylance Studded Bootie",
+      "price": "224.95",
+      "color": "black",
+      "brand": "Jeffrey Campbell",
+      "img_url": "https://img.shopstyle-cdn.com/pim/a5/0d/a50d80d1e375a550ec557100abb42f7f_best.jpg",
+      "main_category": "woman",
+      "sub_category": "shoes",
+      "last_category": ""
+    },
+    {
+      "id": 4,
+      "name": "Medusa crystal-embellished bracelet",
+      "price": "250",
+      "color": "gold",
+      "brand": "Versace",
+      "img_url": "https://img.shopstyle-cdn.com/pim/bd/ba/bdbae50048f6849de447a1b65c434c51_best.jpg",
+      "main_category": "woman",
+      "sub_category": "accessories",
+      "last_category": "jewelry"
+    },
+    {
+      "id": 5,
+      "name": "Kingsnake intarsia mink fur coat",
+      "price": "41000",
+      "color": "brown",
+      "brand": "Gucci",
+      "img_url": "https://img.shopstyle-cdn.com/pim/6f/8b/6f8b131c495e44fa9c3e4633548f2c60_best.jpg",
+      "main_category": "woman",
+      "sub_category": "clothing",
+      "last_category": "coats"
+    },
+    {
+      "id": 6,
+      "name": "Sherbert Bomb Midi Dress",
+      "price": "99",
+      "color": "pink",
+      "brand": "Bardot",
+      "img_url": "https://img.shopstyle-cdn.com/pim/a9/b4/a9b4c1de78b502b3837df3d6af028ebb_best.jpg",
+      "main_category": "woman",
+      "sub_category": "clothing",
+      "last_category": "dresses"
+    },
+    {
+      "id": 7,
+      "name": "Romy 100 Glitter Degrade Point Toe Pumps",
+      "price": "675",
+      "color": "metal",
+      "brand": "Jimmy Choo",
+      "img_url": "https://img.shopstyle-cdn.com/pim/1f/0d/1f0d0a03c19f8041b24bca744a18a73a_best.jpg",
+      "main_category": "woman",
+      "sub_category": "shoes",
+      "last_category": ""
+    },
+    {
+      "id": 8,
+      "name": "Washed T-shirt with logo",
+      "price": "480",
+      "color": "black",
+      "brand": "Gucci",
+      "img_url": "https://img.shopstyle-cdn.com/pim/e5/7a/e57a43414d7a56650c74ec2be72da7ad_best.jpg",
+      "main_category": "man",
+      "sub_category": "clothing",
+      "last_category": "tops"
+    },
+    {
+      "id": 9,
+      "name": "Monogram Artsy MM",
+      "price": "1745",
+      "color": "brown",
+      "brand": "Louis Vuitton",
+      "img_url": "https://img.shopstyle-cdn.com/pim/89/1f/891f0cf6d1d06a7196257685b26f211a_best.jpg",
+      "main_category": "woman",
+      "sub_category": "bags",
+      "last_category": ""
+    }
+  ]
+}
