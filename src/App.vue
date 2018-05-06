@@ -1,8 +1,8 @@
 <template>
   <div class="container" id="app">
-    <Header></Header>
-    <Sidebar></Sidebar>
-    <router-view></router-view>
+    <Header v-bind:filters="filters"></Header>
+    <Sidebar v-bind:filters="filters"></Sidebar>
+    <router-view v-bind:filters="filters"></router-view>
   </div>
 </template>
 
@@ -20,7 +20,15 @@ export default {
   },
   data () {
     return {
-     
+      filters: {
+        color: '',
+        brand: '',
+        price: '',
+        mainCat: '',
+        subCat: '',
+        lastCat: '',
+        search: ''
+      }
     }
   },
   methods: {
@@ -30,6 +38,11 @@ export default {
 
 <style lang="scss" scoped>
   @import '../static/styles/mixins.scss';
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
 
   .container {
     font-family: 'Slabo 27px', serif;

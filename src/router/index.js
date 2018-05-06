@@ -10,12 +10,14 @@ export default new Router({
     {
       path: '/',
       name: 'Products',
-      component: Products
+      component: Products,
+      props: true
     },
     {
       path: '/product/:id',
       name: 'ProductDetail',
-      component: ProductDetail
+      component: ProductDetail,
+      props: true
     }
   ]
 })
