@@ -25,32 +25,40 @@
 </template>
 
 <script>
-import {SearchBus, MainCatBus, SubCatBus, LastCatBus} from '../buses/buses.js';
 
 export default {
   name: 'Header',
+  props: {
+    filters: {
+      required: false
+    }
+  },
   data () {
     return {
         searchText: ''
     }
   },
   methods: {
-    emitGlobalSearchEvent() {
-        SearchBus.$emit('searching', this.searchText);
+    search() {
+        this.filters.search = this.searchText.toLowerCase();
     },
     filterMainCat: function(name) {
-        MainCatBus.$emit('main-cat-request', name);
+        this.filters.mainCat = name;
+        this.filters.subCat = '';
+        this.filters.lastCat = '';
     },
     filterSubCat: function(name) {
-        SubCatBus.$emit('sub-cat-request', name);
+        this.filters.subCat = name;
+        this.filters.mainCat = '';
+        this.filters.lastCat = '';
     },
     filterLastCat: function(name) {
-        LastCatBus.$emit('last-cat-request', name);
+        this.filters.lastCat = name;
     }
   },
   watch: {
       searchText: function() {
-          this.emitGlobalSearchEvent();
+          this.search();
       }
   }
 }
